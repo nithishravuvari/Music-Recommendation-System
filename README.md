@@ -5,10 +5,7 @@
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.2.0-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white)
 
-
-
-
-🔮 Explore personalized music recommendations with this ML-powered system. Utilizing Spotify data, TF-IDF vectorization, and cosine similarity, discover your next favorite song effortlessly!
+Explore personalized music recommendations with this ML-powered system. Utilizing Spotify data, TF-IDF vectorization, and cosine similarity, discover your next favorite song effortlessly!
 
 ## Table of Contents
 
