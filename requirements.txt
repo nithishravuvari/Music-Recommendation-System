@@ -1,0 +1,11 @@
+streamlit
+spotipy
+nltk
+scikit-learn
+pandas
+numpy
+tqdm
+dotenv
+sentence-transformers
+pickle
+textblob

@@ -1,0 +1,24 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+envi_music/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (large)
+*.pkl
+*.csv
+
+# Environment / secrets
+.env
+spotify_credentials.json
+
+# VS Code settings
+.vscode/
