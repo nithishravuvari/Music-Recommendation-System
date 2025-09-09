@@ -4,8 +4,24 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.2.0-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white)
+![Sentence-Transformers](https://img.shields.io/badge/Sentence--Transformers-embeddings-blue?style=for-the-badge)
 
-Explore personalized music recommendations with this ML-powered system. Utilizing Spotify data, TF-IDF vectorization, and cosine similarity, discover your next favorite song effortlessly!
+An **ML-powered context-aware music recommendation system** 🎶.  
+Instead of relying on user playlists or histories, this project leverages **Spotify lyrics dataset + Sentence Transformers embeddings** to recommend songs.  
+
+---
+
+## Features  
+
+- **Context-aware recommendations** → filter by:  
+  - Moods: `Any`, `Happy`, `Sad`, `Energetic`, `Chill`  
+  - Activities: `Any`, `Workout`, `Study`, `Party`, `Relax`  
+  - Genres: `Any`, `Pop`, `Rock`, `Hip-Hop`, `Jazz`, `Classical`, `Electronic`, `Country`  
+- **Semantic similarity** between songs using **Sentence Transformers**.  
+- **Spotify API integration** for album covers, audio features, and genre tags.  
+- **Interactive Streamlit app** to explore recommendations visually.  
+
+---
 
 ## Table of Contents
 
@@ -21,11 +37,13 @@ Explore personalized music recommendations with this ML-powered system. Utilizin
 
 ## Libraries Used
 
-- **pandas** -  Used for data manipulation and analysis.
-- **nltk** - Provides natural language processing tools for text data.
-- **scikit-learn** - Implements machine learning algorithms for TF-IDF vectorization and cosine similarity.
-- **streamlit** - Utilized for creating an interactive web application.
-- **spotipy** - Used to interact with the Spotify API for song information.
+- **pandas** → Data manipulation and analysis.  
+- **numpy** → Numerical computations and efficient data handling.  
+- **nltk** → Text preprocessing and natural language processing.  
+- **scikit-learn** → Machine learning utilities (e.g., preprocessing, similarity functions).  
+- **sentence-transformers** → Embedding generation for semantic similarity.  
+- **spotipy** → Python client for the Spotify Web API.  
+- **streamlit** → Interactive UI for exploring recommendations.  
 
 ## How to Install and Run the Project
 
@@ -53,11 +71,14 @@ Explore personalized music recommendations with this ML-powered system. Utilizin
 
 - Select a song from the dropdown menu.
 
+- Apply Mood, Activity, Genre filters.
+  
 - Click the "Show Recommendation" button to view recommended songs.
 
 - The recommended songs along with their album covers will be displayed.
 
 ## Results
+
 ![Screenshot 2024-03-11 113306](https://github.com/nithishravuvari/Music-Recommendation-System/assets/104012893/a632f9b4-f2cf-4cce-aa70-30c3010a5efb)
 ![image](https://github.com/nithishravuvari/Music-Recommendation-System/assets/104012893/e9e20cc6-2b9f-43dd-abe7-adbac410594f)
 
